@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.logo-text {
+  display: inline;
+  font-size: 40px;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+.logo-img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+/* /Header */
+
+.container {
+  width: 75%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Actions */
+.actions {
+  border-bottom: 2px solid #f6f8f9;
+  padding: 15px 30px 15px 50px;
+}
+/* /Actions */
+
+/* Buttons */
+.button-1 {
+  padding: 5px;
+  background-color: #42c6f1;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.button-2 {
+  background-color: #fff;
+  color: #bebebe;
+  margin-left: 5px;
+}
+/* /Buttons */
+
+/* Tasks */
+.tasks {
+  padding: 10px 50px;
+}
+
+.tasks h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.complete {
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+}
+
+.incomplete {
+  border: 1px solid #d00e1a;
+  color: #d00e1a;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.tag-1 {
+  background-color: #42c6f1;
+}
+
+.tag-2 {
+  background-color: #dd23e2;
+}
+
+.tag-3 {
+  background-color: #23daa2;
+}
+
+.tag-4 {
+  background-color: #ff8b00;
+}
+
+.tag-5 {
+  background-color: #ff6eeb;
+}
+
+.tag-6 {
+  background-color: #b1f919;
+}
+/* /Tags */
+/* /Tasks */
